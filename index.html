@@ -1,4 +1,5 @@
 <head>
+  <meta charset="utf-8">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-7B33DE8X9Q"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -34,10 +35,16 @@
   </div>
 </div>
 
+<div class="project-filter" role="group" aria-label="Filter projects">
+  <button type="button" class="active" data-filter="all" aria-pressed="true">all</button>
+  <button type="button" data-filter="personal" aria-pressed="false">personal</button>
+  <button type="button" data-filter="commercial" aria-pressed="false">commercial</button>
+</div>
+
 
 <div class="gallery">
 
-  <div class="cell">
+  <div class="cell" data-category="personal">
     <a href="aeon-tokyo">
       <div class="image">
         <img src="https://mir-s3-cdn-cf.behance.net/projects/404/75f954205482853.Y3JvcCwxMjE4LDk1MiwyNzI1LDgzOA.jpg">
@@ -48,7 +55,7 @@
     </a>
   </div>
 
-  <div class="cell">
+  <div class="cell" data-category="personal">
     <a href="sacred-geometry-zsolnay">
       <div class="image">
         <img src="https://mir-s3-cdn-cf.behance.net/projects/404/1686f4205494999.Y3JvcCwyNDcyLDE5MzQsNTAxLDcz.jpg">
@@ -59,7 +66,18 @@
     </a>
   </div>
 
-  <div class="cell">
+  <div class="cell" data-category="commercial">
+    <a href="port-ellen-whisky">
+      <div class="image">
+        <img src="assets/projects/thumbnails/port-ellen-whisky.jpg" alt="Port Ellen Whisky generative visualization">
+      </div>
+      <div class="title">
+        Port Ellen Whisky
+      </div>
+    </a>
+  </div>
+
+  <div class="cell" data-category="personal">
     <a href="daad-festival-vj-show">
       <div class="image">
         <img src="https://mir-s3-cdn-cf.behance.net/projects/404/8ff7b3205494657.Y3JvcCw2NDgsNTA3LDQwNCww.jpg">
@@ -70,7 +88,7 @@
     </a>
   </div>
 
-  <div class="cell">
+  <div class="cell" data-category="personal">
     <a href="garden-cinema-mystica">
       <div class="image">
         <img src="https://mir-s3-cdn-cf.behance.net/projects/404/ca3698205494511.Y3JvcCwxMTkxLDkzMSwxMDMsMA.jpg">
@@ -81,7 +99,7 @@
     </a>
   </div>
 
-  <div class="cell">
+  <div class="cell" data-category="personal">
     <a href="sacred-geometry-chongqing">
       <div class="image">
         <img src="https://mir-s3-cdn-cf.behance.net/projects/404/3d459b205492437.Y3JvcCwyNzYxLDIxNjAsNTQwLDA.png">
@@ -92,7 +110,7 @@
     </a>
   </div>
 
-  <div class="cell">
+  <div class="cell" data-category="personal">
     <a href="ephemera">
       <div class="image">
         <img src="https://mir-s3-cdn-cf.behance.net/projects/404/ede65f193492207.Y3JvcCwyNzYxLDIxNjAsMjM5LDA.png">
@@ -103,7 +121,7 @@
     </a>
   </div>
 
-  <div class="cell">
+  <div class="cell" data-category="personal">
     <a href="fractal-experiments">
       <div class="image">
         <img src="https://mir-s3-cdn-cf.behance.net/projects/404/be992e146576727.Y3JvcCwxNjI0LDEyNzAsNDA2LDA.png">
@@ -114,7 +132,18 @@
     </a>
   </div>
 
-  <div class="cell">
+  <div class="cell" data-category="commercial">
+    <a href="mycelia">
+      <div class="image">
+        <img src="assets/projects/thumbnails/mycelia.jpg" alt="MyCélia experimental short film">
+      </div>
+      <div class="title">
+        MyCélia
+      </div>
+    </a>
+  </div>
+
+  <div class="cell" data-category="personal">
     <a href="imperfect-copies">
       <div class="image">
         <img src="https://mir-s3-cdn-cf.behance.net/projects/404/a14b3c74371523.Y3JvcCw5OTUsNzc4LDQ2MywxNTA.png">
@@ -125,7 +154,18 @@
     </a>
   </div>
 
-  <div class="cell">
+  <div class="cell" data-category="commercial">
+    <a href="swarovski-diamonds">
+      <div class="image">
+        <img src="assets/projects/thumbnails/swarovski-diamonds.jpg" alt="Swarovski lab-grown diamonds film">
+      </div>
+      <div class="title">
+        Swarovski Diamonds
+      </div>
+    </a>
+  </div>
+
+  <div class="cell" data-category="personal">
     <a href="streets-of-hong-kong">
       <div class="image">
         <img src="https://mir-s3-cdn-cf.behance.net/projects/404/21183c31086233.Y3JvcCw0NTcsMzU3LDIzMSwxMTQ.jpg">
@@ -136,7 +176,18 @@
     </a>
   </div>
 
-  <div class="cell">
+  <div class="cell" data-category="commercial">
+    <a href="interpon">
+      <div class="image">
+        <img src="assets/projects/thumbnails/interpon.jpg" alt="Interpon powder coating animation">
+      </div>
+      <div class="title">
+        Interpon
+      </div>
+    </a>
+  </div>
+
+  <div class="cell" data-category="commercial">
     <a href="t-systems-boost">
       <div class="image">
         <img src="https://mir-s3-cdn-cf.behance.net/projects/404/15e4af74331223.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png">
@@ -147,7 +198,18 @@
     </a>
   </div>
 
-  <div class="cell">
+  <div class="cell" data-category="commercial">
+    <a href="mirati">
+      <div class="image">
+        <img src="assets/projects/thumbnails/mirati.jpg" alt="Mirati ocean simulation">
+      </div>
+      <div class="title">
+        Mirati
+      </div>
+    </a>
+  </div>
+
+  <div class="cell" data-category="personal">
     <a href="evolve">
       <div class="image">
         <img src="https://mir-s3-cdn-cf.behance.net/projects/404/6dae3e40570639.Y3JvcCwyOTQwLDIzMDAsMjY5LDA.jpg">
@@ -158,7 +220,7 @@
     </a>
   </div>
 
-  <div class="cell">
+  <div class="cell" data-category="personal">
     <a href="surveillance">
       <div class="image">
         <img src="https://mir-s3-cdn-cf.behance.net/projects/404/37ad0031085171.Y3JvcCw1NzIsNDQ3LDEwLDA.png">
@@ -169,7 +231,7 @@
     </a>
   </div>
 
-  <div class="cell">
+  <div class="cell" data-category="personal">
     <a href="hybrid-space">
       <div class="image">
         <img src="https://mir-s3-cdn-cf.behance.net/projects/404/759fe331086337.Y3JvcCw0ODYsMzgwLDc0LDA.jpg">
@@ -180,7 +242,7 @@
     </a>
   </div>
 
-  <div class="cell">
+  <div class="cell" data-category="personal">
     <a href="search-space">
       <div class="image">
         <img src="https://mir-s3-cdn-cf.behance.net/projects/404/ec445331085783.Y3JvcCwxMTE4LDg3NSwwLDA.jpg">
@@ -191,7 +253,7 @@
     </a>
   </div>
 
-  <div class="cell">
+  <div class="cell" data-category="personal">
     <a href="sum">
       <div class="image">
         <img src="https://mir-s3-cdn-cf.behance.net/projects/404/e1d32f31084631.Y3JvcCw1NDcsNDI4LDE0Nyw5.jpg">
@@ -202,7 +264,7 @@
     </a>
   </div>
 
-  <div class="cell">
+  <div class="cell" data-category="personal">
     <a href="giuseppe-castiglioni-installation">
       <div class="image">
         <img src="https://mir-s3-cdn-cf.behance.net/projects/404/4e6fcd40569567.Y3JvcCw4MDEsNjI3LDEyOCwzNw.jpg">
@@ -213,6 +275,60 @@
     </a>
   </div>
 
+  <div class="cell" data-category="commercial">
+    <a href="cle-de-peau-the-serum">
+      <div class="image">
+        <img src="assets/projects/thumbnails/cle-de-peau-the-serum.jpg" alt="Clé de Peau Beauté The Serum film">
+      </div>
+      <div class="title">
+        Clé de Peau Beauté — The Serum
+      </div>
+    </a>
+  </div>
+
+  <div class="cell" data-category="commercial">
+    <a href="wildaid">
+      <div class="image">
+        <img src="assets/projects/thumbnails/wildaid.jpg" alt="WILDAID anti-hunting campaign film">
+      </div>
+      <div class="title">
+        WILDAID
+      </div>
+    </a>
+  </div>
+
+  <div class="cell" data-category="commercial">
+    <a href="la-mer-lunar-rat">
+      <div class="image">
+        <img src="assets/projects/thumbnails/la-mer-lunar-rat.jpg" alt="La Mer Lunar Rat film">
+      </div>
+      <div class="title">
+        La Mer — Lunar Rat
+      </div>
+    </a>
+  </div>
+
 </div>
+
+<script>
+  const filterButtons = document.querySelectorAll('.project-filter button');
+  const projectCells = document.querySelectorAll('.gallery .cell');
+
+  filterButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const filter = button.dataset.filter;
+
+      filterButtons.forEach((item) => {
+        const selected = item === button;
+        item.classList.toggle('active', selected);
+        item.setAttribute('aria-pressed', selected);
+      });
+
+      projectCells.forEach((project) => {
+        project.hidden = filter !== 'all' && project.dataset.category !== filter;
+      });
+    });
+  });
+</script>
 
 </body>
